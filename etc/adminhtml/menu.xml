@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Hoan_TestXml::test_menu_xml" title="Test menu.xml" translate="title" module="Hoan_TestXml" sortOrder="50" resource="Hoan_TestXml::test_acl_xml"/>
+        <add id="Hoan_TestXml::child_menu_1" title="Child menu 1" translate="title" module="Hoan_TestXml" parent="Hoan_TestXml::test_menu_xml" sortOrder="10" action="testmenu/child1/index" resource="Hoan_TestXml::child1"/>
+        <add id="Hoan_TestXml::child_menu_2" title="Child menu 2" translate="title" module="Hoan_TestXml" parent="Hoan_TestXml::test_menu_xml" sortOrder="20" action="testmenu/child2/index" resource="Hoan_TestXml::child2"/>
+        <add id="Hoan_TestXml::child_menu_3" title="Child menu 3" translate="title" module="Hoan_TestXml" parent="Hoan_TestXml::test_menu_xml" sortOrder="30" action="testmenu/child3/index" resource="Hoan_TestXml::child3"/>
+    </menu>
+</config>
