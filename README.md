@@ -1,0 +1,1 @@
+- showInDefault, showInWebsite, showInStore is separate not depend on eachother

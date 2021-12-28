@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="tab_system_xml" translate="label" sortOrder="40">
+            <label>Tab System.xml</label>
+        </tab>
+        <section id="section1_system_xml" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>section1-system-xml</class>
+            <label>Section 1</label>
+            <tab>tab_system_xml</tab>
+            <resource>Hoan_TestXml::section1</resource>
+            <group id="group1_system_xml" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Group 1</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="some_text2" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="1">
+                    <label>Field 2 - Some text</label>
+                    <comment>This is the comment of field 2</comment>
+                </field>
+                <field id="some_text3" translate="label" type="text" sortOrder="20" showInDefault="0" showInWebsite="1" showInStore="1">
+                    <label>Field 3 - Some text</label>
+                    <comment>This is the comment of field 3</comment>
+                </field>
+            </group>
+            <group id="group2_system_xml" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="1">
+                <label>Group 2</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+            <group id="group3_system_xml" translate="label" type="text" sortOrder="20" showInDefault="0" showInWebsite="1" showInStore="1">
+                <label>Group 3</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+        <section id="section2_system_xml" translate="label" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+            <class>section2-system-xml</class>
+            <label>Section 2</label>
+            <tab>tab_system_xml</tab>
+            <resource>Hoan_TestXml::section2</resource>
+            <group id="group1_system_xml" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Group 1</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="some_text2" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="1">
+                    <label>Field 2 - Some text</label>
+                    <comment>This is the comment of field 2</comment>
+                </field>
+                <field id="some_text3" translate="label" type="text" sortOrder="20" showInDefault="0" showInWebsite="1" showInStore="1">
+                    <label>Field 3 - Some text</label>
+                    <comment>This is the comment of field 3</comment>
+                </field>
+            </group>
+        </section>
+        <section id="section3_system_xml" translate="label" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="1">
+            <class>section3-system-xml</class>
+            <label>Section 3</label>
+            <tab>tab_system_xml</tab>
+            <resource>Hoan_TestXml::section3</resource>
+            <group id="group1_system_xml" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 1</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="some_text2" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="1">
+                    <label>Field 2 - Some text</label>
+                    <comment>This is the comment of field 2</comment>
+                </field>
+                <field id="some_text3" translate="label" type="text" sortOrder="20" showInDefault="0" showInWebsite="1" showInStore="1">
+                    <label>Field 3 - Some text</label>
+                    <comment>This is the comment of field 3</comment>
+                </field>
+            </group>
+        </section>
+        <section id="section4_system_xml" translate="label" sortOrder="40" showInDefault="0" showInWebsite="1" showInStore="1">
+            <class>section4-system-xml</class>
+            <label>Section 4</label>
+            <tab>tab_system_xml</tab>
+            <resource>Hoan_TestXml::section3</resource>
+            <group id="group1_system_xml" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Group 1</label>
+                <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Field 1 - Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="some_text2" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="1">
+                    <label>Field 2 - Some text</label>
+                    <comment>This is the comment of field 2</comment>
+                </field>
+                <field id="some_text3" translate="label" type="text" sortOrder="20" showInDefault="0" showInWebsite="1" showInStore="1">
+                    <label>Field 3 - Some text</label>
+                    <comment>This is the comment of field 3</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
